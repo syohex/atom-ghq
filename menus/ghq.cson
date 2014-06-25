@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable ghq': 'ghq:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ghq'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'ghq:toggle' }
+      ]
+    ]
+  }
+]

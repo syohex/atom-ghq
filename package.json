@@ -1,0 +1,14 @@
+{
+  "name": "ghq",
+  "main": "./lib/ghq",
+  "version": "0.0.1",
+  "description": "ghq atom interface",
+  "activationEvents": ["ghq:toggle"],
+  "repository": "https://github.com/atom/ghq",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
